@@ -1,0 +1,15 @@
+.about-section {
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.about-sub-section {
+	padding-top: 30%;
+}
+
+.display-picture {
+	width: 100%;
+	padding-top: 30px;
+	/* height: 80vh; */
+}

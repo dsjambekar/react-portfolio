@@ -1,0 +1,10 @@
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.btn-skill-secondary {
+	width: 500px;
+	margin: 10px;
+}

@@ -1,5 +1,5 @@
-import { Button } from "react-bootstrap";
 import { BsGearFill } from "react-icons/bs";
+import { Skill } from "./skill";
 import "./skills.css";
 
 export const Skills = () => {
@@ -10,62 +10,10 @@ export const Skills = () => {
 			<h1>Skills</h1>
 
 			<div className="skills">
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					Amazon Web Services
-				</Button>
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					Java
-				</Button>
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					Kubernate
-				</Button>
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					mainframe
-				</Button>
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					Amazon Web Services
-				</Button>
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					Java
-				</Button>
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					Kubernate
-				</Button>
-				<Button
-					variant="secondary"
-					className="btn-skill-secondary"
-					size="lg"
-				>
-					mainframe
-				</Button>
+				<Skill title="Python"></Skill>
+				<Skill title="Python"></Skill>
+				<Skill title="Python"></Skill>
+				<Skill title="Python"></Skill>
 			</div>
 		</div>
 	);

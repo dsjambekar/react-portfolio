@@ -4,3 +4,13 @@
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
+
+.project {
+	width: 18rem;
+	border: 1px solid gainsboro;
+	margin: 10px;
+}
+
+.project-image {
+	width: 100%;
+}

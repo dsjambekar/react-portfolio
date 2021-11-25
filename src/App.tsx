@@ -7,12 +7,12 @@ import { Skills } from "./components/skills/skills";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 import { BsFillPeopleFill, BsCodeSlash, BsGearFill } from "react-icons/bs";
+// import { Navbar } from "./components/navbar/navbar";
+import { useEffect } from "react";
 
 function App() {
 	return (
 		<div className="App">
-			<header className="header"></header>
-
 			<Navbar bg="dark" variant="dark" expand="lg" fixed="top">
 				<Container>
 					<Navbar.Brand href="#about">Amol Kirtane</Navbar.Brand>
@@ -29,14 +29,14 @@ function App() {
 			</Navbar>
 
 			<About></About>
-			<hr />
 			<Projects />
-			<hr />
 			<Skills />
-			<hr />
 			<Testimonals />
-			<hr />
-			<Contact />
+			{/* <Contact /> */}
+			<div className="temp-contact">
+				You can reach me at{" "}
+				<a href="mailto:kirtaneamol@gmail.com">kirtaneamol@gmail.com</a>
+			</div>
 		</div>
 	);
 }

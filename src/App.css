@@ -42,15 +42,33 @@
 	padding-top: 70px;
 }
 
+.navbar {
+	height: 50px;
+	background: #282c34;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
 .testimonal {
 	display: flex;
-	padding: 50px;
+	margin: 50px 50px 0;
+	text-align: left;
 }
 
 .testimonal-profile {
-	display: flex;
+	/* display: flex; */
 	flex-direction: column;
 	justify-content: center;
+	flex: 0 0 200px;
 }
 
 .testimonal-image {
@@ -71,3 +89,7 @@
 	top: 0px;
 	width: 100%;
 } */
+
+.temp-contact {
+	background-color: wheat;
+}
